@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EasyNote</string>
+    <string name="pls_text">Please log in to use application</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="enter_your_username">enter your username</string>
+    <string name="login_btn">Login</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="sign_up">Don\'t have an account? \n Sign Up</string>
+    <string name="fill_info">Fill in the following information</string>
+    <string name="firs_name">Firs Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="register">Register</string>
+    <string name="enter_your_age">enter your age</string>
+    <string name="age">Age</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="confirm_password_lable">Confirm Password</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="email_lable">Email</string>
+    <string name="enter_your_last_name">enter your last name</string>
+    <string name="enter_your_first_name">enter your first name</string>
+    <string name="login_prompt">Please log in to use application</string>
+    <string name="hint_usernam">enter your username</string>
+    <string name="hint_password">enter your password</string>
+    <string name="login">Login</string>
+    <string name="signup_prompt">Don\'t have an account?\nSign Up</string>
+    <string name="registration_prompt">Fill in the following information</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="mark_as_important">Mark as important</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="wrong_data">"Something went wrong during registration or passwords does not hamapatasxanum"</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/create_note_title_et"
+        android:textStyle="bold"
+        android:maxLength="20"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/darkorange" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:text="@string/description" />
+
+    <EditText
+        android:id="@+id/create_note_description_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkorange"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:maxHeight="200dp"
+        android:maxLength="2000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/hint_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mark_as_important"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/create_note_chb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/hint_color"
+        android:gravity="center"
+        android:text="@string/color_picker"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:clickable="true"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/create_note_add_btn"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:shadowRadius="25"
+        android:background="@color/darkblue"
+        android:text="Add" />
+</LinearLayout>
